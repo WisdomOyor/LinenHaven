@@ -1,0 +1,15 @@
+    /********** Extra small devices only **********/
+  @media (max-width: 768px) {
+    .logo {
+      height: 10vw;
+    }
+    .header-icons{
+      padding-right: 2vw;
+    }
+    .header-icon{
+     padding: 1vw; 
+    }
+  
+
+  }
+  
