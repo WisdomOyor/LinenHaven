@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;500&family=Oxygen:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/just_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Linen Haven</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav-links-div">
+          <ul class="nav-links-ul">
+            <li class="nav-items">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-items active">
+              <a class="nav-link active" href="#">Shop</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="about.html">Brand</a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#" class="navbar-brand" id="navbar-brand">
+          <!-- <img src="./images/logo.png" alt="" class="logo"> -->
+          <h1 class="brand-name">Linen Haven</h1>
+        </a>
+
+        <div class="icons header-icons-right">
+          <i class="nav-link fa-solid fa-user header-icon"></i>
+          <i class="nav-link fa-solid fa-cart-shopping header-icon"></i>
+          <i class="nav-link fa-solid fa-bars header-icon toggle_btn"></i>
+        </div>
+
+        <div class="dropdown_menu">
+          <li class="">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <hr class="styled" />
+          <li class="">
+            <a class="nav-link active" href="#">Shop</a>
+          </li>
+          <hr class="styled" />
+          <li class="">
+            <a class="nav-link" href="about.html">Brand</a>
+          </li>
+          <hr class="styled" />
+          <li class="">
+            <a class="nav-link" href="#footer">Contact us</a>
+          </li>
+          <span class="above-dpm-logo"></span>
+          <img src="images/Linen_Haven_Logo_black.png" alt="" class="logo" />
+        </div>
+      </nav>
+    </header>
+
+    <div class="main-content container">
+      <h2>SUMMER SPRING 2023</h2>
+      <div  id="product-container"  class="grid-products row">
+        <div class="grid-item col-lg-4 col-md-6">
+          <img
+            class="media-big-img"
+            src="https://lh3.googleusercontent.com/oEOeAGV383wlf3Sl162QFIP1fvwEg-3K9WjM4iQ6h2PzN0mocRzKG7R1ATNBGrzKdyyEAlg32ZYUtvCyUD9arSIm3tILnMFwABLoTHG1Ffg9R5hodY32bSJLxbGwqnltFEAjWOrzet_9tkOXDcb6fLBMBTGNAE3qE0XCswlLAiGKhAced4w3YEiwW-bf4a-dUiL6Axa5LHnET9QHPHjDYM6cmGx9DpnI93aaFeAKkOzTHKGlIPBxtTZKORPvoKYkr-8yrhj1DDNMB8ZRen8b2J6x_IJGr5yvOJwnxPTKKNnd8aE93pAwmjiCJtGLnW00Pj-Wl7OrLOPHM2HcrgvV5RjnD5IhzAYos10pqsVPYi83LIfdyFWzgTKNDmVZsnOX_dEeu_FqFJFQWuXJ-bAOnAzO9Bc0cwFBFSIvO5VlbL0x9jIVnbuv2JaNjy9CxtALI9cEInsfIESAO78FbZ5tZFP918lIfSB2ssVVGcs_08OP7pCs_0qsZMEA0avgaC5zASZW1yJRryzPQNnjzjXHmoFFC2AhwZ8Jfyu-No_tML4iy_6Dk_yLQ2V4-GMelaJVZwGsES39gwilDRC7UU5xIbGpN_MK7lsuk7yD8cPpiDdEeJfX-uYt_clJ9--yCQNgzfKbUVxSnxQ3ABXOKmixlGvJ9Ayh_4AncUNk01bEhWGYSXXw4IFYOkRhxUfiyJL48vv_6ypoXAob0iYa0arWAaSpwBhZY4Q-rIukZCNIgULXHd16tfVabEatp4QRCle4S7TcKiyTAttbOvt-cQa2I6qLf8sHqrPJvbLPVFhUKyTrsVl6mOp9Lor-i2AeCxXEiQ0_1wXTX5eUFS5pWc-o7wNg549pn4NyO8ILyEyRGecmzGf3oHC86QkFLxAmkVZvVA9YLlRWdTYpzA6jawlIBg4vVQvbIYDKoIjefG-rU5Z7PRgQ=w454-h568-s-no?authuser=0"
+            alt=""
+          />
+          <p class="image-name-big">Boho Chic Attire</p>
+          <span class="pricing">$170</span>
+        </div>
+        <div class="grid-item col-lg-4 col-md-6">
+          <img
+            class="media-big-img"
+            src="https://lh3.googleusercontent.com/hQp63HmUHerNyaMnR3Xb1upKhw2hK08Ia_ETzAxPZlXhu8Beb0PSTwxEx4HluJytHPy4Iev9MRLhDTm9W3Zw4cxlcuS_UWFkKjHfxSDxWEPnyP21JvXSPqymbbYFUIiODL_ZdLatYrw7vLPZ8FtTyTr0Y4ZKV64ozgR0QVPlsOP-r7tg_O2mIkK5aGk7eMhVnVr91HS7vuzY51_tcWXt2DzhV4gAI8pf8TkGi0Waq6Fl-ujwTQpz2cSzLq47nlu1pPXCvEwhCLvIi5ZMvXOTTrRsLhzjmDvy73Hc-rsKuR4j8mln3qgmWzOhT_t2MvaFuGcDS2pUCZiFthXK90mXMeZ4Oquc_HvBRJfaQ5qKKGTCy_Uo23NZYyWqK7pVa9OSblbUZ32mu-hvrlblawiofPrIa3zZJyZWV1g9TjcmUAYT2B1nEMlkrG2Cq4a8u39gcd5PVLP2WPv3cMPKKBOQOCAoPwLOb59pSpBTucLa-SqzzQboh8RpbYeBS1MTy8J0CSnFAAPboc2vNK_U3Us9pBeDAUfKyMrJRdJXeF_SNJiUIM_KGdQHZ5Orm9n4vObm9li5FLbPHFdV5R38MfVhkDagqWhST1ADhxorz2zqU7n2rzKaYZQIunn0IiqnBxvYmmE5OuJdPa-sqgOzM9IpM5x2GijgUDzdCA3NUT8t6EzISbCo1tUEBZfECQupIF-0vXjKU3gA2um8LRIiriVnYiFlk_6lBZUndrbDtqgzHgUZZ5Hghb3armtmAP6zWtm8QbrgkBO5koXYMgXwZMgNPF9iiT9BQa11UIVB-R8CAPVRm4Cig0FJn7ImkC_IXnAe5O9IvGyXL9gyChxgXaUkUcoUBbc0kIU0p1_4W2l2yZxrVUjp_8IilGlOaUdiv35DYyBjA6psRr0XDjBseiSeW2rVtsyE9GvNHk6lMm77OCiotfCf=w500-h625-s-no?authuser=0"
+            alt=""
+          />
+          <p class="image-name-big">Vintage Luxe Collection</p>
+          <span class="pricing">$250</span>
+        </div>
+        <div class="grid-item col-lg-4 col-md-6">
+          <img
+            class="media-big-img"
+            src="https://lh3.googleusercontent.com/SzApGKnOZbd7D7VxLT1DsYjX37_p35A72MYTXvlatoQrp-XrEf4rTuETrA94uedSgB1nf7KfbNO8te0ulsTjwhR6abdZMIO3k4ujLm0GW2TH6isKzJSwBmBOTY0mYpJIjnziF2ZCcOss9BtSGY8fW4bCFWrLoVhPZOXCuREv9XKBlUqbKSFI_83-umWOFjD6Q2UKUvCoPCdSqfW0PKPVyx9jzSgw6AzAwV_rSkbpaz6EwUKmiaobvGkMX-p8Q7TVMvmae7veBi7NdHzf7CYKPoi7IYrwxMg13KoO09Ntp9cY5LuUxGzMGUyaS6eAciwvQK4a3kR2i1OFXmiZ-oOzpbIVr_jUqPsaWJCRjX71vCLX43IkKlnh34zJhf57xj-OcF016w7KkUb-zZwuMEz4-ZzrwC1P6IryDUl9uudmBmANZsI3QSsdrJlJRftQysB2_XqRy7h7M6AZe-8KXh6YMIIWuwCbkt-dEKK9bCrZ4BketkcxeLBqDfYag34FFqksFn2mzhatnQmNEMoXgX8GD9mbR6ESQ1O0j8d2fT3JSB3HOZiJWfNO0mj6Cbo3mAfa99lxJwLqfW7N82oQzdSi-PJjQZdiqEQw-dbVyV6vHTjj5WrMGL6JoNU9zQGcE6dGk-DMF5oMNYrcUBy2NSzd6yclxqIy3LJd7oYnkcfmzSUK_NfNLRCC6guzxlgRkZnoOMSz2kUvBDepJO8iNAnANpWnNa9JNxK8FWLIgbkMAzEQtfjWS6jDKfyjmdsEh4erj0hd4Ic0rOeY2x_dS02V1V_07z6olHkIsf62Fy6whZSBY0YXvFUmw8z_XEVPuYd5X7dAm7BUUup8cFVfNlpSS3JZrSYoorhPtjjGkNboDcAQUkUf3eVcq47cMum5lcHTzOIIvBOHmGIRAF2DLESLU0LYlnbTVg8bdYPF4uDKe2DPiw9w=w500-h625-s-no?authuser=0"
+            alt=""
+          />
+          <p class="image-name-big">Adire Queen</p>
+          <span class="pricing">$100</span>
+        </div>
+        <!-- <div class="grid-item col-lg-4 col-md-6"></div> -->
+      </div>
+    </div>
+
+    <!-- Template for a product item -->
+    <script id="product-template" type="text/template">
+      <div class="product grid-item col-lg-4 col-md-6">
+        <img class="media-big-img" src="{{imageURL}}" alt="{{name}}">
+        <p class="image-name-big">{{name}}</p>
+        <span class="pricing">Price: {{price}}</span>
+      </div>
+    </script>
+
+    <div id="footer" class="footer white-div flex-div">
+        <hr class="styled" />
+      <!-- <h1 class="brand-name">Linen Haven</h1> -->
+      <img src="images/Linen_Haven_Logo_black.png" alt="" class="logo" />
+      <p>
+        We are community of fashion enthusiasts who share a passion for African
+        culture and style. We are your go-to destination for all things African
+        fashion, from custom-made fabrics to expertly tailored attires for
+        women, men, and kids.
+      </p>
+      <div class="icons footer-icons">
+        <a
+          target="”_blank”"
+          href="https://www.facebook.com/micheal.oyor?mibextid=ZbWKwL"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          target="”_blank”"
+          href="https://instagram.com/oyor_michael?igshid=YmMyMTA2M2Y="
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          target="”_blank”"
+          href="https://instagram.com/oyor_michael?igshid=YmMyMTA2M2Y="
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+      <div class="link-container">
+        <div class="link-row">
+          <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">Brand</a>
+          </div>
+          <div class="footer-links">
+            <a href="#">FAQs</a>
+            <a href="#">Privacy & cookie policy</a>
+            <a href="#">Terms and Conditions</a>
+          </div>
+        </div>
+      </div>
+      <hr class="styled" />
+      <p>© Linen Haven 2023. All rights reserved.</p>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
