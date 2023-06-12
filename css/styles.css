@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-:root{
+:root {
   --orange: #e6b469;
 }
 body {
@@ -51,7 +51,7 @@ li {
 a {
   color: #fff;
 }
-a:hover{
+a:hover {
   color: var(--orange);
 }
 .active {
@@ -61,6 +61,9 @@ a:hover{
 /* logo */
 .logo {
   display: block;
+  width: 250px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 .navbar-brand {
   margin-left: auto;
@@ -123,14 +126,13 @@ a:hover{
 .fa-xmark {
   color: #e6b469 !important;
 }
-.dropdown_menu hr{
+.dropdown_menu hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   margin: 5px;
 }
-.dropdown_menu .logo{
-  width: 200px;
-}
-.above-dpm-logo{ /* span above logo*/
+
+.above-dpm-logo {
+  /* span above logo*/
   margin-bottom: 5rem;
 }
 
@@ -236,38 +238,43 @@ a:hover{
   width: 100%;
 }
 .big-image-2 {
-  content: url('https://lh3.googleusercontent.com/0VACR9nS6cJLZ14U5E_MqWp6hFzDqqzDJJtBUwbOXrHyjE6MbiARU5mUp4lvqi5_Y_G--y5EPdEw1CZc-6W5E9WoEDWpH0C5eQk85DHalUHqn5uC4MsIBlFy9FYJbn0jCah0UoE2xMJbzFlJjNuIoLI5tggI14humS-YTiKtf-aFjS2h1URNbDGUlB3zsuhdEX4Y00xnuPuvtB80uO_L7guBfLLTLOEdJbika3EEopzMTVjbEqDLxWAWK9y6ums2o4p65mJ57pU0w_fAXY1E3HD6IVg7w17tCDnhKLfBMY_TFT0pFc7TH74JPHBhvs-WkZy6EPY28HEME_GvpFPjIe9qHp7F3p6RegfTtUI9lLXnYmRie_fSARLvVIC42SWP8fJsEome-NDN0HqCaliqm6BAGWhu3nKh5f-rKOC_l87c3wuUD4ghj-OcmWNa0Vqg48VqykUr-knlfn8knrp2YgE16IZJx_ZdRIZJwW5nm3yOSb6DfcayZEW_tJEwsFHJgVQzDzRg3njq94u8ttqlvuRbS2u6OF__EJVP_VoraYEgCVvYaSXUqmQeeoxZmUYrfZjCxP3qpI0CsoBUY-mtqPIIjc_snRMOgGsqrIvOSBrLdPahKTaxTJHbjxiPAPQgofJ-CYpwtQ6ytTJtJ3QcMuaW-yJw5a_3-oASNk3_BwbcR8KM0QptwVQ9m9dalKz-Bzaovsz8s6iAxsmOnVDUtHQEUbUY7UyEZC656ZeV4S1dQZCkeBUlL0ssIzUIOfi8ziAqTuRXYTdq59hsnfJr8jO2exEcA0EQDj16CpzTeoZuza0aM5ANxL2hG8jv7OvxOQf2YGpPx9NnoiFB7J7cAA0S-FlkmYtzahHIl9QyEu2HBrP_jQ3RBg2zEkWoamsJBVRChQLj1msb06Za7PDgNa5wuSzsbWbrlfmaq7f1ORiEEM0Y=w1112-h625-s-no?authuser=0');
+  content: url('../images/big-image-2.png');
 }
 .big-image-3 {
-  content: url('https://lh3.googleusercontent.com/QchbzWHHQ32aMRUrbM9WJZqhjg2Q7PuujAJkfeBdOXYgKMuei7wOijKbjdle9U28dfL2yGlB9Xx1iXJJyrse0gJPj-MFwnrXUyWtCR1ktT47_v6TTKYiiZCJeo3VZSbvh4lEu3_j51dq3h-ZUIzcrhWswWqgDaAAteKgZfHhkje4Dmf8HiHU-0lZb6QTCU0CbAM1mnXavo78cI0vuaMuV1MzGZN3_H3aOxu1PJpCs-2CPK_B27iHRL9AACjmxncEeV11v5UwLbasaCKmJ3sz5fZF9hWRvm2AfFaUxyE_LbbudyrTKcQLd7Qt7niDLwYlUElXLWMLoORV6LBgN4DQP_JGLowBeqDMLaEgEG0TBvkbN4ie3KY0ZsLCTGZwLvywveMHjAjPoL0aV_TJU-ljw2xtKX6Z_Bq8r-09s-CoGl2s2jK5I3nPcDWfo40NBufp-jU0w3glswaqgP5ooLRvJvP-iSDowkeM9vlAdbXjg2vH4tXUJdsDar8fPiYvwk3g6p8FvAOC9FHS6ds8QXopXCI61xAScsbJNTTGfqqTf3jrVEwjDPbdAb6iGTDTYlv7zL2ghf0VD2ym9UKks_ny7XpQUK8ISwXdcWMMsbO3On90sikmR9pzoAOa3na1qRcoiuIWQSxR25FXP7Ew35oInvU8WqSXT6JMYHDtrD5PXLHnAZH60DRUrgpIk4IQEh_QTNO2-rATau1sNiPdpCUuzHo-khcHVeflyIpS1en_-gPfKmpwiXULx6-C1TMMcLmXPXJIkF4DTHW2rYkdWJpdKhdwqIPhfOr_9AQ3yDyLBNIzRyG6ZpNVxCjS_-Dbn1rw8uwqgnTySiojsmBHZ2b1couH7PuxbUPlHca8r7Q8YJvwkFZXdzXTQCq3irYM2uncj9xS88YmrLtQEETp0-Qczrhj8pdJgqr4RImOXu-no2vIJB4p=w1112-h625-s-no?authuser=0');
+  content: url('../images/big-Image-3.png');
 }
 
 /* SHOP PAGE */
-.main-content{
+.main-content {
   padding: 20px;
   min-height: 50vh;
 }
-.grid-products{
+.grid-products {
+  margin: 1px;
   padding: 10px;
 }
-.grid-item{
+.grid-item {
   height: auto;
   padding: 10px;
-  /* border: 2px solid #000; */
+  padding-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 4px 15px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 4px 15px -4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 4px 15px -4px rgba(0, 0, 0, 0.75);
 }
 .media-big-img {
   width: 100%;
-  height: 40vw;
+  height: 400px;
   object-fit: cover;
 }
-.image-name-big{
+.image-name-big {
   font-weight: bold;
   font-size: 1.3rem;
-  margin-bottom: 0;
+  margin: 0 0.6rem;
 }
 
 /* ABOUT PAGE */
-.about_h1{
+.about_h1 {
   margin: 20px;
   margin-left: 0;
 }
@@ -295,7 +302,6 @@ a:hover{
   font-size: 6em;
 }
 .footer .logo {
-  height: auto;
   margin: 1rem;
 }
 .footer-icons {
@@ -409,10 +415,10 @@ a:hover{
     min-height: 20vh;
   }
   .big-image-2 {
-    content: url('https://lh3.googleusercontent.com/r1WyDsjWbeN7_FlnxjvqgOu78w7MXnVypoq1r4oDUCRmvx9mu27rR1DJzsMJc3yJA3elKu-DtTKcZPvTWH41Zr9qjwtq3sm74WlArhD_glEKQoc82wLPAjm4vqYAzjJDuUIYdvCW-eLo_6BhnG89InJos0l5dMYhdoMPLmCl7NHFJWYSa4aO-j0t_z0KQTpBeHYT6lsO0lUf86ZOzXstqqSSz5QMhkZjUnkCwbKGOtUylCjCSN0okz_98Pdp4SWPpsQojTYvWp3Mac2DsZoTYJ4VgJTxq-8_KXXk15CFjumd7SRBDWjBeSYKtG05E8-VxhdgOW87L-jXe9yLvhKEvi0gyGRYW6YCBwKDoifqetnfgurFDZKb0YfWdG2KLPgzg9fJq8tGp99Rrvm3hleiaJo4HRLwEQDGwlelkIKfwmhJsMeCA4EBVy2ukc4h29TfPDA2i7L1a3k60c7GXKXqWBnYbKkyEF8A90V-OhzL5AS07nCQFLZH4UpDn1CXvo9bb5eTAFAkVHZJirSRA-3zE6mqeyRo9PpqU4SartWhXSaKO4xGAF9SUb91U_xqJpMzUcrXy8ITeC9a_J9MCA--pbsPku4XlPhoRD6Y3w5nI8lzKCBeA5-WWUOenWUX1bvE-sHhVUfTYhmDfTRumKZod3x4fg41B1iNM3MzaP6wK8_WEraRKtVDkCYZh495zRBq5pyl_7FOVKI2TeV6wpZc-7X8Yhq1NxEAfmj0sRL3w9_-pZX_E4SHycAGnh6RmA5xze4vMfaPazwiAlMTgSLDsspRk4sK2pHLuhCAxqxY7f529L8ifmlIOrG78w3-LYoBwP-HDX3C0EYOgDhsZxq4_LTVYnk9vAni2KLrIvmq3F0p8kxSk6S08QDbu-Cm2fn3gYqA_nZlz5g1rZcmhh2n8l8gtEXv2P6G_JcBgMbF8WXtpXA2=w500-h625-s-no?authuser=0');
+    content: url('../images/small-image-2.png');
   }
   .big-image-3 {
-    content: url('https://lh3.googleusercontent.com/aNPPcgNxYLz1SRP7pmUtEJtr91GJqYovr28iILW4a1XZXsWsNhk_V6uBzIpiUDKClnU3-jSxG21LXTWxxBDuw9iIy0p0WfdP18B-p4k7tkCSwxMi__R1sLXeEpTMLu9uSOidlqbPH2t2dEeml15OFE2JeTFAmxq_941rhfKMMckFj_i91W7Vg7NYRDwkvYBygFRWSMUyBKEgozw3IZ2vZOHezTmqGl38zCRQwdiMWP2pASWCtz09mSidj5eeR0j7F3T2qXJQDULsjvyAtGdT9F8ux6If0Jamvr5zzPfO3SunIss2UzHPt_nw_ppq1J33R9Kr6vmLnCcepDV6AriY2KUme9FugLoYbAJKrnX5BsqglTj9JFM26ZZ3w-R2T-11vw2ZeEBbbAsWMUgH99psvAWv3aPRgUo7WK33ob4Pn_EV0-MzlSDVgv1zoOxSS3xkcQRt3CZIl9V_WrYbGKvbN4S9Tnb-qSO1jtZ8BT3tYvFjDlf1KLe3dbC1aIc4z1R0AOoU7oTpMs2JQDrYFQVP76j73I8TgFjdWjE-r0BB7zhkvNqcgjHDX49U40gmLoZZwJpm0oo4M9h4jZAmsZJyD-FRM1I6kyDaHhHCHFhCSy923OdbhQE6CUDE9k91B_fvly7KjtNcf86IJbBsRwFwzU74paoC7hhHa0fhpOI9as4pbgZNaoGkiR6U0djY4uD4o-e_MD31e530dZvl5TCPs-s2dCZoIT3eKFh7_30wCTG_OjSiStEWTINx4-dMj1ArmzYR9yL_pWTK5_JNLaUlsGJkMDCAzRzS-MIVO6z9r_p1_B4FTVcDKsT-neKpLB6eYSV91aXC6L7yGmrL-5NWUaoiVVi1ztm9jkA4Bh2xsfh4WHeO-u-WouWckHdjK0h_k_8hq81mMMRgOEFe6CglLpYPjNIlVvKAYx46e7l5KilIjmiE=w500-h625-s-no?authuser=0');
+    content: url('../images/small-image-3.jpg');
   }
   .footer p {
     padding: 0 5rem;
@@ -455,8 +461,8 @@ a:hover{
     width: 1em;
     height: 0.3em;
   }
-  .footer .logo{
-    width: 150px;
+  .footer .logo {
+    width: 200px;
   }
   .footer p {
     padding: 0 0.5rem;
