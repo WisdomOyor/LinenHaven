@@ -1,0 +1,23 @@
+HOME
+1. Adjust the first button ✅
+2. Add a favourites icon ✅
+3. Make the images clickable ✅
+
+PAGES
+1. adjust the item boxes; FONT, FAV~wishlist button, and use them as the same template for HOME and SHOP
+1. Add WISHLIST feature, and page
+2. Add CART feature, and page
+3. Add the individual item's page; find out how to dynamically do their pages...
+4. Add an Accounts Page
+5. ADD LOGIN FEATURE
+
+SHOP
+1. Make the images into two columns
+
+INDIVIDUAL ITEM'S PAGE
+1. Add to cart, add to wishlist
+2. You may also like
+
+Later
+1. ADD CACHE
+1. How to do email subscription 
